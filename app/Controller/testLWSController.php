@@ -2,7 +2,7 @@
 
 	class TestLWSController extends AppController {
 
-		public function index() {
+		public function index() { 
 			$this->set('title', 'Test LWS');
 		}
 	}
