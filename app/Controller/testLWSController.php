@@ -1,6 +1,6 @@
 <?php
 
-	class testLWSController extends AppController {
+	class TestLWSController extends AppController {
 
 		public function index() {
 			$this->set('title', 'Test LWS');
