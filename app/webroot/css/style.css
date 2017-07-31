@@ -1,0 +1,524 @@
+/************** GENERAL ****************/
+
+body{
+	background-color: #0e2c68;
+	color: #fff;
+	text-align: center;
+	margin: 0;
+}
+
+h2,h4,h5, .bleu{
+	color: #0e2c68;
+}
+
+h3, .orange{
+	color:#ff6600;
+}
+
+.bleu_clair{
+	color: #2cc5f1;
+}
+.rouge{
+	color:red;
+}
+
+.blanc{
+	color: #fff;
+}
+
+a{
+	color: #fff;
+}
+
+a:hover{
+	text-decoration: none;
+	color: #fff;
+}
+
+.bg_gris{
+	background-color:#ececec;
+}
+
+.bg_blanc{
+	background-color: #fff;
+}
+
+.bg_bleu{
+	background-color: #0e2c68;
+}
+
+.bg_orange{
+	background-color: #ff6600;
+}
+
+form:not(#newsletter) input{
+	width: 85% !important;
+}
+
+form select{
+	width: 15% !important;
+}
+
+.masquer{
+	display: none;
+}
+
+/************** BOUTONS ****************/
+
+.btn-rond{
+	padding-top: 12px;
+	margin: 0px auto;
+	width: 50px;
+	height: 50px;
+	border-radius: 25px;
+	background-color: #fff;
+}
+
+.btn-rond img{
+	max-width: 30px;
+	max-height: 30px;
+}
+
+.btn-rond-transparent{
+	margin: 0px auto;
+	width: 60px;
+	height: 60px;
+	border-radius: 30px;
+	border: 1px solid rgba(14, 44, 104, 0.2);
+}
+
+.btn-rond-transparent img{
+	margin-top:14px;
+	max-width: 30px;
+	max-height: 30px;
+	text-align: center;
+}
+
+.my_btn{
+	color: #fff;
+	background-color: #ff6600;
+	font-weight: bold;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.my_btn:hover,
+.my_btn:focus{
+	color: #fff;
+}
+
+/************** MENU, BANNIERE ET PRIX ****************/
+
+header.container-fluid{
+	margin : 0;
+	padding: 0;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-color: #81d7ff;
+}
+
+.bloc_orange{
+	background-color:#ff6600;
+	color:#fff;
+	border-radius: 3px;
+	font-weight: bold;
+	text-align: center;
+	font-size: 24px;
+	padding: 0 10px;
+}
+
+#meilleur_prix{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+#meilleur_prix table{
+	margin: 10px 0;
+	width: 100%;
+}
+
+#meilleur_prix table table tr td:not(:last-child){
+	padding-bottom: 5px;
+	text-align: center;
+	font-size: 18px;
+}
+
+#meilleur_prix table table tr td span{
+	font-size: 24px;
+}
+
+#meilleur_prix td.fleche_meilleur_prix{
+	vertical-align: bottom;
+	padding:0;
+	text-align: right;
+}
+
+/************** PIED DE PAGE ****************/
+
+footer{
+	padding-bottom: 20px;
+}
+
+footer .col-sm-3 > div{
+	margin-top: 20px;
+}
+
+footer form{
+	margin-top : 10px;
+}
+
+footer a:hover{
+	color: #444;
+}
+
+footer .separateur{
+	width: 100%;
+	border-bottom : 1px solid #aaa;
+}
+
+footer .reseaux_sociaux img{
+	margin-top: 10px;
+	margin-right: 10px;
+}
+
+footer li{
+	text-align: left;
+	list-style-type: none;
+	font-size: 16px;
+}
+
+footer li a:hover{
+	color:#fff;
+	text-decoration: underline;
+}
+
+/************** SECTIONS : SERVICES, TEMOIGNAGES, ETC... ****************/
+
+.container-fluid .row{
+	margin:0;
+}
+
+section.container-fluid .row div{
+	margin-bottom: 10px;
+}
+
+section.container-fluid{
+	padding: 10px 0px;
+}
+
+
+#bloc_meilleur_prix img{
+	width: 100%;
+	vertical-align: middle;
+	margin: auto auto;
+}
+
+#bloc_meilleur_prix,
+#etAussi{	
+	color: #0e2c68;
+	background-repeat: no-repeat;
+	background-color: #ececec;
+}
+
+#pourquoiChoisir{
+	color: #0e2c68;
+	background-repeat: no-repeat;
+	background-color: #fff
+}
+
+#pourquoiChoisir .fleche_carrousel img{
+	cursor: pointer;
+	padding-top: 150px;
+	max-width: 30px;
+}
+
+#contact header,
+#contact div{
+	margin-top: 20px;
+}
+
+#contact header{
+	font-size: 25px;
+	font-weight: bold;
+}
+
+#etAussi{
+	font-size: 16px;
+}
+
+#list_service{
+	margin-top: 40px;
+	margin-bottom : 40px;
+}
+
+.service{
+	border-bottom: 1px solid rgba(14, 44, 104, 0.2);
+	padding-bottom: 20px;
+	text-align: center;
+	height: 150px;
+	vertical-align: top;
+}
+
+#infos_offre{
+	font-size: 12px;
+}
+
+/************** BARRE DE NAVIGATION ****************/
+
+.navbar-inverse{
+	background-image: none;
+	border: none;
+	background-color: transparent;
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+.navbar-inverse a, .input-group-addon, input, select{
+	color: #0e2c68 !important;
+	font-size: 14px;
+}
+
+.navbar-nav li a img{
+	margin-left:auto;
+	margin-right:0px;
+	max-width: 100px;
+	vertical-align: middle;
+}
+
+.navbar-inverse .navbar-nav li:not(:first-child),
+.navbar-inverse ul#sous-menu li:not(:last-child){
+	border-bottom: 1px solid #fff;
+}
+
+.navbar-nav li:not(:first-child) a:hover,
+.navbar-nav li:not(:first-child) a:focus,
+.navbar-inverse ul#sous-menu li:hover,
+.navbar-inverse ul#sous-menu li:focus{
+	outline: none;
+	text-decoration: none;
+	background-color: rgba(255,255,255, 0.2) !important;
+}
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus{
+	background-color: rgba(255,255,255, 0.2) !important;
+	background-image: none;
+	box-shadow: none;
+}
+
+#sous-menu{
+	background-color: #0e2c68;
+	width: 50%;
+	padding: 0;
+	left: auto;
+	right: 25px;	
+	position: absolute;
+	z-index: 2;
+}
+
+.navbar-inverse ul#sous-menu li{
+	list-style: none;
+	text-align: right !important;
+	padding:10px;
+	margin: 0;
+}
+
+.navbar-inverse ul#sous-menu li a{	
+	color: #fff !important;
+	font-size: 14px;
+}
+
+/************** MEDIAS QUERIES ****************/
+
+@media screen and (max-width: 992px) {
+
+	#fond_header{
+		padding:0;
+	}
+
+	header.container-fluid{
+		background-image: none;
+	}
+
+	#fond_header img{
+		width: 100%;
+		margin: 0px;
+	}
+
+	.navbar-nav{
+		width: 100%;
+	}
+
+	.navbar-nav li a img{
+		max-width:200px;
+	}
+
+	.navbar-nav li:first-child{
+		width: calc(100% - 300px);
+		text-align: left;
+	}
+
+	.navbar-nav li:last-child{
+		text-align: right;
+		width: 290px;
+	}
+
+	.navbar-nav li:last-child a {
+		font-size: 24px;
+		font-weight: bold;
+		margin-top: 10px;		
+	}
+
+	#meilleur_prix table{
+		margin: 0;
+	}
+
+	#meilleur_prix table table{
+		margin: 10px 0;
+	}
+
+	#bloc_meilleur_prix h2, #bloc_meilleur_prix h3{
+		font-size: 40px !important;
+	}
+
+	#pourquoiChoisir{
+		background-size: 100% auto;
+		background-image: url('../img/tablette/fond_temoignage.png');
+	}
+
+	#etAussi{
+		background-size: 100% auto;
+		background-image: url('../img/tablette/fond_services.png');		
+	}
+
+	footer .reseaux_sociaux img{
+		width: 25px;
+	}
+
+	footer a{
+		font-size: 12px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.navbar{
+		margin: 0;
+		padding: 0;
+	}
+
+	.navbar-nav li{
+		display: inline-block;
+	}
+
+	.navbar-nav li:first-child{
+		width: calc(100% - 100px);
+		text-align: left;
+	}
+
+	.navbar-nav li:last-child{
+		width: 70px;
+		
+	}
+
+	.navbar-inverse .navbar-nav li:not(:first-child){
+		border-bottom: none;
+	}
+
+	#sous-menu{		
+		width:100%;	
+		right: 0px;
+	}
+
+	#meilleur_prix table table tr td,
+	#meilleur_prix table table tr td span,
+	.bloc_orange{
+		font-size: 18px;
+	}
+
+	.bloc_orange{	
+		padding: 5px
+	}
+
+	form:not(#newsletter) .input-group{
+		width: 100%;
+	}
+
+	.form-inline:not(#newsletter) .input-group-btn,
+	.input-group .form-control{
+		width: 100% !important;
+		display: block !important;
+		float: none !important;
+	}
+
+	form:not(#newsletter) .input-group .form-control,
+	form:not(#newsletter) .my_btn{
+		border-radius: 5px !important;
+	}
+	
+	.form-inline .input-group-btn{
+		margin-top:  10px;
+	}
+
+	.input-group select.form-control{
+		display: none !important;
+	}
+
+	#carousel{
+		margin-top: 100px;
+	}
+
+	#pourquoiChoisir{
+		background-image: url('../img/mobile/fond_temoignage.png');
+	}
+
+	#etAussi{
+		padding-top: 100px;
+	}
+
+	#etAussi h2,
+	#etAussi h3{
+		font-size: 24px;
+	}
+
+	.btn-rond-transparent{
+		border:none;
+	}
+
+	.btn-rond-transparent img{
+		max-width: 50px;
+		max-height: 50px;
+	}
+
+	footer .reseaux_sociaux img{
+		width: 40px;
+	}
+
+}
+
+@media screen and (min-width: 992px) {
+
+	header.container-fluid {		
+		background-size: cover;
+		background-image: url('../img/ecran/fond_header.png');
+	}
+
+	#pourquoiChoisir{
+		background-size: 100% auto;
+		background-image: url('../img/ecran/fond_temoignage.png');
+	}	
+
+	#etAussi{
+		background-size: 100% auto;
+		background-image: url('../img/ecran/fond_services.png');		
+	}
+
+}
